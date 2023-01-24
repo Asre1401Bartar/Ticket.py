@@ -48,7 +48,6 @@ async def help(ctx):
 
 @bot.command()
 async def new(ctx, *, args = None):
-    if ctx.message.channel.id == (1059738993341780038):
         await bot.wait_until_ready()
 
         if args == None:
